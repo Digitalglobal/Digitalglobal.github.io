@@ -6,7 +6,7 @@ function initialize(){
 
         mapTypeId:google.maps.MapTypeId.ROADMAP,
         backgroundColor:"#000",
-        zoom:15,
+        zoom:10,
         panControl:!1,
         zoomControl:!0,
         mapTypeControl:!1,
@@ -99,8 +99,7 @@ function initialize(){
 
     // Multiple Markers
     var markers = [
-        ['Abanico, Maitencillo', -32.640990,-71.432698],
-        ['Portofino, Atacama', -26.520997,-70.704058]
+        ['Oficina Central, Santiago de Chile', -33.352283, -70.517509],
     ];
                         
     // Info Window Content
